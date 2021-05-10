@@ -16,7 +16,7 @@ function userLeave(id) {
     return users.splice(index, 1)[0];
   }
 }
-function getRemove(room) {
+function getRoomUsers(room) {
   return users.filter(user => user.room === room);
 
 }
@@ -25,5 +25,5 @@ module.exports = {
   userJoin,
   getCurrentUser,
   userLeave,
-  getRemove
+  getRoomUsers
 }
