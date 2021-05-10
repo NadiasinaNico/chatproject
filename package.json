@@ -1,0 +1,17 @@
+{
+  "name": "chatproject",
+  "version": "1.0.0",
+  "description": "chat project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Nadiasina Nico",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.0.2"
+  }
+}
